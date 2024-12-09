@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo span {
+    color: green;
+  }
+  
+  .nav-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .welcome-message {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Main Content */
+  .main-content {
+    padding: 20px;
+  }
+  
+  .property-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-listing-btn {
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid #27cc8a;
+    color: #27cc8a;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-listing-btn:hover {
+    background-color: #27cc8a;
+    color: white;
+  }
+  
+  .property-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .property-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .property-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .property-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .property-type,
+  .location,
+  .capacity,
+  .price {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+ 
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #27cc8a;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+  

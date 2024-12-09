@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TurisTahanan - Property Listings</title>
+        <link rel="icon" href="favicon.png" type="image/png">
+        <link rel="stylesheet" href="listing1_styles.css">
+      </head>
+      <body>
+        <header class="header">
+          <div class="logo">Turis<span>Tahanan</span></div>
+          <nav class="nav-links">
+            <a href="#">Property Listings</a>
+            <a href="#">Bookings</a>
+            <a href="#">Log Out</a>
+          </nav>
+          <div class="welcome-message">Welcome Owner 1!</div>
+        </header>
+    <main>
+        <form class="listing-form">
+            <h1>Add New Listing</h1>
+            <div class="form-row">
+              <label for="title">Title</label>
+              <input type="text" id="title" name="title">
+              <label for="slug">Slug</label>
+              <input type="text" id="slug" name="slug">
+            </div>
+            <div class="form-row">
+              <label for="price">Price (per night)</label>
+              <input type="text" id="price" name="price">
+              <label for="cancellation-policy">Cancellation Policy</label>
+              <select id="cancellation-policy" name="cancellation-policy">
+                <option value="flexible">Flexible</option>
+                <option value="moderate">Moderate</option>
+                <option value="strict">Strict</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="property-type">Property Type</label>
+              <select id="property-type" name="property-type">
+                <option value="apartment">Apartment</option>
+                <option value="house">House</option>
+                <option value="villa">Villa</option>
+                <option value="Hotel">Hotel</option>
+              </select>
+              <label for="province">Province</label>
+              <select id="province" name="province">
+                <option value="">Select your province</option>
+                <option value="Bataan">Bataan</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="city">City</label>
+              <select id="city" name="city">
+                <option value="">Select your city or municipality</option>
+              </select>
+              <label for="barangay">Barangay</label>
+              <select id="barangay" name="barangay">
+                <option value="">Select your barangay</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="capacity">Capacity</label>
+              <input type="text" id="capacity" name="capacity">
+              <label for="beds">Beds</label>
+              <input type="text" id="beds" name="beds">
+            </div>
+            <div class="form-row">
+              <label for="bedrooms">Number of Bedrooms</label>
+              <input type="text" id="bedrooms" name="bedrooms">
+              <label for="bathrooms">Number of Bathrooms</label>
+              <input type="text" id="bathrooms" name="bathrooms">
+            </div>
+            <label for="description">Description</label>
+            <textarea id="description" name="description"></textarea>
+              <legend>Amenities</legend>
+              <div class="amenities-container">
+                <label><input type="checkbox" name="amenities" value="wifi"> Wifi</label>
+                <label><input type="checkbox" name="amenities" value="kitchen"> Kitchen</label>
+                <label><input type="checkbox" name="amenities" value="refrigerator"> Refrigerator</label>
+                <label><input type="checkbox" name="amenities" value="coffee-maker"> Coffee Maker</label>
+                <label><input type="checkbox" name="amenities" value="dishes"> Dishes and silverware</label>
+                <label><input type="checkbox" name="amenities" value="stove"> Cooking Stove</label>
+                <label><input type="checkbox" name="amenities" value="beach-access"> Beach Access</label>
+                <label><input type="checkbox" name="amenities" value="patio"> Private Patio or Balcony</label>
+                <label><input type="checkbox" name="amenities" value="parking"> Free Parking</label>
+                <label><input type="checkbox" name="amenities" value="washing-machine"> Washing Machine</label>
+                <label><input type="checkbox" name="amenities" value="dryer"> Dryer</label>
+                <label><input type="checkbox" name="amenities" value="air-conditioning"> Air-conditioning</label>
+                <label><input type="checkbox" name="amenities" value="smoke-alarm"> Smoke Alarm</label>
+                <label><input type="checkbox" name="amenities" value="backyard"> Backyard</label>
+                <label><input type="checkbox" name="amenities" value="bathtub"> Bathtub</label>
+                <label><input type="checkbox" name="amenities" value="outdoor-dining"> Outdoor Dining Area</label>
+                <label><input type="checkbox" name="amenities" value="bbq-grill"> BBQ Grill</label>
+                <label><input type="checkbox" name="amenities" value="cctv"> CCTV</label>
+                <label><input type="checkbox" name="amenities" value="swimming-pool"> Swimming Pool</label>
+              </div>
+              <div class="form-buttons">
+                <button type="button">Cancel</button>
+                <button type="submit" class="add-listing-btn">Add New Listing</button>
+              </div>              
+          </form>
+           <footer class="footer">
+    <p>Copyright © 2024 TurisTahanan. All rights reserved.</p>
+  </footer> 
+    </main>
+    </body>
+    </html>
+    
