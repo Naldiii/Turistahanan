@@ -59,6 +59,7 @@
     color: #27cc8a;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
   }
   
   .add-listing-btn:hover {
